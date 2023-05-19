@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --seaSalt: #F7F9F9;
+    --ashGray: #BED8D4;
+    --tiffanyBlue: #78D5D7;
+    --paleAzure: #63D2FF;
+    --steelBlue: #2081C3;
+}
+
+body {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    background-color: var(--steelBlue);
+}
+
+.game {
+    display: inline-block;
+    border-radius: 2.5rem;
+    margin: 20px 0px;
+    width: 250px;
+    height: 400px;
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+div.game {
+    background-color: var(--paleAzure);
+}
+
+div.game:hover {
+    filter: brightness(.9);
+}
+
+#title {
+    text-align: center;
+}

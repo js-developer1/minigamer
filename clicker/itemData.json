@@ -1,0 +1,10 @@
+[
+    {
+        "name": "worker",
+        "origPrice": "100",
+        "priceIncrease": "0.02",
+        "cpsIncrease": "1",
+        "multiplierIncrease": "0",
+        "itemType": "cps"
+    }
+]

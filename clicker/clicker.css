@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --charCoal: #373F51;
+    --celestialBlue: #008DD5;
+    --lightRed: #FF7477;
+    --aquamarine: #44FFD2;
+    --electricBlue: #87F6FF;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: var(--charCoal);
+    color: var(--electricBlue);
+}
+
+.shopItem {
+    display: inline-block;
+    background-color: var(--celestialBlue);
+    border-radius: 2.5rem;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.itemImg {
+    display: block;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#clicker {
+    padding: 50px;
+    background-color: var(--aquamarine);
+    border-radius: 2.5rem;
+}
+
+#stats {
+    margin: 10px auto;
+    width: 160px;
+    padding: 10px;
+    background-color: var(--lightRed);
+    border-radius: 2.5rem;
+    text-align: center;
+}
+
+#shop {
+    width: 900px;
+    display: block;
+    margin: auto;
+}
